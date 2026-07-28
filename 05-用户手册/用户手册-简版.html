@@ -1,0 +1,204 @@
+<!DOCTYPE html><html><head>
+      <title>用户手册-简版</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\XEF1CNG\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.20\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="rbcc-wfam-售后件管理系统--简明使用手册">RBCC WFAM 售后件管理系统 — 简明使用手册 </h1>
+<blockquote>
+<p>本手册为快速上手版，仅覆盖核心操作。完整字段与细节请见《<a href="http://xn--26q291bzbs68h.md">用户手册.md</a>》。<br>
+文档日期：2026-07-28</p>
+</blockquote>
+<hr>
+<h2 id="一-系统是干什么的">一、系统是干什么的 </h2>
+<p>管理客户退货件的全生命周期，主线流程：</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>退货登记 → 提交退货单 → 录入退件信息 → 结束录入（自动建分析单）
+        → 抽样 → 精分析 → 审批 → WorkON 报废
+</code></pre><p>登录：本系统嵌入博世 Portal，在 Portal 登录后从应用中心进入，无需单独登录。<br>
+浏览器：Chrome / Edge / Firefox 最新版，推荐 1920×1080。</p>
+<hr>
+<h2 id="二-角色">二、角色 </h2>
+<p>共 6 个角色，由博世 IDM 分配：</p>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>能做什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>客户质量工程师</td>
+<td>查看退货单、退件、报表</td>
+</tr>
+<tr>
+<td>分析员 Analyst</td>
+<td>新建单据、做精分析、抽样、报废（仅自己的数据）</td>
+</tr>
+<tr>
+<td>分析主管 QMC Leader</td>
+<td>全部权限 + 审批 + 数据校订</td>
+</tr>
+<tr>
+<td>QMC 经理</td>
+<td>查看全部数据、报表</td>
+</tr>
+<tr>
+<td>访客 Visitor</td>
+<td>只看工作台和报表</td>
+</tr>
+<tr>
+<td>系统管理员</td>
+<td>全部权限 + 配置管理</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="三-工作台首页">三、工作台（首页） </h2>
+<p>进入系统默认看到数据看板：</p>
+<ul>
+<li><strong>4 个统计卡片</strong>：退货单总量、退件信息总量、任务待处理、分析完成率。点卡片可跳转对应列表。</li>
+<li><strong>数量趋势图</strong>：退货单 / 退件信息两条折线，可切换 日/周/月/年。</li>
+<li><strong>任务中心</strong>：列出各类待办（待录入、待精分析、预警、超期、待审批、待报废确认），点击自动带筛选跳转。</li>
+<li><strong>快捷入口</strong>：快速登记退货单、新增退件、统计报表、WorkON、Lessons Learned、帮助 FAQ。</li>
+</ul>
+<hr>
+<h2 id="四-退货单管理">四、退货单管理 </h2>
+<h3 id="列表页">列表页 </h3>
+<ul>
+<li>顶部按 退货单号 / 客户 / 收件日期 / 状态 筛选。</li>
+<li>按钮：<strong>新建</strong>、<strong>导出</strong>（Excel）、<strong>编辑</strong>（选中 1 条）、<strong>删除</strong>（选中后确认）。</li>
+<li>点退货单号（蓝色）进详情。</li>
+</ul>
+<h3 id="新建退货单">新建退货单 </h3>
+<p>必填：客户、收件日期、投诉日期、退回方式、退回数量、投诉类型。</p>
+<ul>
+<li>退回方式选「快递」时，<strong>投诉日期自动等于收件日期</strong>，且必须填快递单号。</li>
+<li>投诉类型选 <strong>BA40/BA41</strong> → 显示蓝色「售后件」标签（可走抽样）；其他 BA → 橙色「0km」标签。</li>
+<li>底部三按钮：<strong>取消</strong> / <strong>暂存</strong>（存为草稿，不生成单号）/ <strong>提交</strong>（生成单号如 <code>26QMC0001</code>，提交后不可改）。</li>
+</ul>
+<h3 id="详情页">详情页 </h3>
+<ul>
+<li>看基本信息、统计信息、状态步骤条、退件信息列表。</li>
+<li><strong>结束录入</strong>：已提交且有至少 1 条退件信息时可点。确认后状态变「退件登记/已完成」，并<strong>自动按分析师分组创建分析单</strong>。结束后不能再增删零件。</li>
+</ul>
+<h3 id="删除">删除 </h3>
+<p>有关联退件信息时<strong>不能删</strong>，需先删退件。</p>
+<hr>
+<h2 id="五-退件信息管理">五、退件信息管理 </h2>
+<h3 id="新建退件信息">新建退件信息 </h3>
+<p>三个区域：</p>
+<ol>
+<li><strong>基础信息</strong>：关联退货单（仅草稿/已提交的可选）、零件号（输入后自动带出 BU 和产品平台）、退件编号（4 位数字，页面会给建议序号）。</li>
+<li><strong>客诉信息</strong>：仅「售后件」（BA40/BA41）显示；0km 隐藏。含投诉类型、客户失效类型、分析师等。</li>
+<li><strong>车辆信息</strong>：仅售后件显示。可用 <strong>OCR 拍照/上传</strong> 自动识别 VIN、里程等字段，识别失败就手填。</li>
+</ol>
+<ul>
+<li>底部：<strong>取消</strong> / <strong>暂存</strong>（无编号）/ <strong>提交</strong>（生成编号）。</li>
+<li>编号规则：<code>{BU代码}-{平台代码}-{4位序号}</code>，如 <code>RBCABS-WSA-0001</code>；BU 为空时用 <code>BLANK</code> 占位。</li>
+<li>照片：支持 jpg/png/jpeg，单张 ≤10MB，最多 20 张。</li>
+</ul>
+<h3 id="详情页-1">详情页 </h3>
+<ul>
+<li>右侧状态步骤条 + 精分析报告卡片（有则显示，可查看/导出）。</li>
+<li>精分析完成（状态 ≥ analysis_completed）后，上方可录入 <strong>QC No.</strong>。</li>
+<li>状态为「精分析/进行中」时显示<strong>精分析</strong>按钮，点进去填报告。</li>
+</ul>
+<hr>
+<h2 id="六-分析单管理">六、分析单管理 </h2>
+<p>分析单以「<strong>退货单 × 分析师</strong>」为粒度，结束录入时自动生成。分析员只能看自己的。</p>
+<h3 id="抽样前提分析单为待抽样">抽样（前提：分析单为「待抽样」） </h3>
+<p>点<strong>抽样</strong>按钮，三种方式：</p>
+<ul>
+<li><strong>标准抽样</strong>：设比例/数量 → 随机抽取。</li>
+<li><strong>指定抽样</strong>：穿梭框手动勾选。</li>
+<li><strong>不抽样</strong>：直接进报废流程（会警告确认）。</li>
+</ul>
+<blockquote>
+<p>0km 退货单不能抽样，直接走报废。<br>
+QMC Leader 可对已抽样单<strong>重新抽样</strong>（会重置结果）。</p>
+</blockquote>
+<h3 id="报废前提精分析审批完成">报废（前提：精分析审批完成） </h3>
+<ol>
+<li>点<strong>报废</strong> → 校验通过后弹出报废处理窗，显示退货单号、数量、WorkON 链接。</li>
+<li>点<strong>确认标记</strong> → 状态变「WorkOn 报废中」。</li>
+<li>去 WorkON 系统完成实际报废后，回来点<strong>确认 WorkOn 完成</strong>，填 WorkON 报废单号 → 状态终态「已报废」。</li>
+</ol>
+<hr>
+<h2 id="七-精分析报告">七、精分析报告 </h2>
+<p>从退件详情页点<strong>精分析</strong>进入。表单顶部选<strong>责任判定</strong>（B 博世/C 客户/S 供应商/O 其他）和<strong>模板</strong>（按平台+失效类型自动匹配）。</p>
+<p>底部按钮：</p>
+<ul>
+<li><strong>暂存草稿</strong></li>
+<li><strong>提交审批</strong> → 自动路由给 QMC Leader</li>
+<li><strong>下载报告</strong>（提交后可导出 Excel）</li>
+</ul>
+<hr>
+<h2 id="八-审批仅-qmc-leader--系统管理员">八、审批（仅 QMC Leader / 系统管理员） </h2>
+<p>两个 Tab：</p>
+<ul>
+<li><strong>我的申请</strong>：自己提交的报告，待审批状态可<strong>撤回</strong>。</li>
+<li><strong>待我审批</strong>：等审批的报告，可<strong>通过</strong>或<strong>驳回</strong>（驳回必填原因）。</li>
+</ul>
+<p>通过 → 退件状态推进；驳回 → 退件回退到精分析中，分析员收到通知。</p>
+<hr>
+<h2 id="九-其他模块简述">九、其他模块（简述） </h2>
+<ul>
+<li><strong>统计报表</strong>：分析报表 / 质量报表。按客户、BU、平台、失效模式等维度出图，可导出 Excel。全部角色只读。</li>
+<li><strong>导入</strong>：批量导入退货单 / 退件信息（Excel 或文件夹路径），后台逐行处理，有成功/失败明细，可撤销本次导入。</li>
+<li><strong>配置</strong>（仅系统管理员）：精分析模板、数据字典（客户/零件号）、邮件服务器、SMB 存储。</li>
+</ul>
+<hr>
+<h2 id="附录-a状态一览以代码为准">附录 A：状态一览（以代码为准） </h2>
+<h3 id="退货单">退货单 </h3>
+<p><code>draft</code> 草稿 → <code>submitted</code> 已提交 → <code>registered</code> 退件登记/已完成 → <code>scrapped</code> 已报废</p>
+<h3 id="退件信息9-个">退件信息（9 个） </h3>
+<p><code>draft</code>、<code>submitted</code>、<code>in_initial_analysis</code>、<code>initial_analysis_completed</code>、<code>pending_approval</code>、<code>analysis_completed</code>、<code>analysis_skipped</code>、<code>scrap_in_progress</code>、<code>scrapped</code></p>
+<h3 id="分析单8-个">分析单（8 个） </h3>
+<p><code>pending_sampling</code> 待抽样 → <code>in_detailed_analysis</code> 精分析中 → <code>analysis_completed</code> 审批完成 → <code>workon_scrap_in_progress</code> 报废中 → <code>workon_scrapped</code> 已报废<br>
+（另有 <code>analysis_skipped</code>、<code>scrap_in_progress</code>、<code>scrapped</code> 等过渡/终态）</p>
+<h3 id="精分析报告5-个">精分析报告（5 个） </h3>
+<p><code>draft</code> 草稿 → <code>submitted</code> 待审批 → <code>approved</code> 已审批 / <code>rejected</code> 已驳回 / <code>withdrawn</code> 已撤回</p>
+<hr>
+<h2 id="附录-b常见问题">附录 B：常见问题 </h2>
+<ul>
+<li><strong>草稿和已提交怎么区分？</strong> 草稿无编号、灰色不可点；提交后生成编号、变蓝色链接。</li>
+<li><strong>加不了退件信息？</strong> 退货单必须处于「草稿」或「已提交」；「退件登记/已完成」会显示「已关闭」。</li>
+<li><strong>不能抽样？</strong> 只有售后件（BA40/BA41）能抽样，且分析单需为「待抽样」；0km 直接报废。</li>
+<li><strong>改不了已提交数据？</strong> 只有 QMC Leader / 系统管理员有「数据校订」权限。</li>
+<li><strong>OCR 失败？</strong> 提示后直接手填，或点重新识别重试。</li>
+</ul>
+<hr>
+<p><strong>文档结束</strong></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
